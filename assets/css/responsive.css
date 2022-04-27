@@ -160,10 +160,12 @@
     font-size: 20px;
     line-height: 10px;
     margin-bottom: 1px;
+    text-align: center;
     
   }
   #hero-area .contents p {
     font-size: 14px;
+    text-align: center;
   }
   #hero-area {
     padding: 60px 10px 0px 0px;
