@@ -19,6 +19,9 @@
 
 /* tablets */
 @media (max-width: 991px) {
+  .img-fluid{
+    opacity: 0;
+  }
   .section-title {
     font-size: 30px;
     margin-bottom: 30px;
@@ -36,6 +39,9 @@
 
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
+  .img-fluid{
+    opacity: 0;
+  }
   .section-title {
     font-size: 26px;
     margin-bottom: 30px;
