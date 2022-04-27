@@ -105,27 +105,15 @@
 /* mobile or only mobile */
 @media (max-width: 767px) {
   .section-padding {
-    padding: 60px 0;
+    padding: 10px 0;
   }
-
-  .phoneImage{
-    width: 25vw;
-height: 15vh;
-border: 3px solid white;
-margin-top: -10vh;
-margin-bottom: 7vh;
-margin-left: 60vw;
-background-image: url("../img/pic.png");
-background-size: contain;
-
-background-position-x: center;
-
-background-repeat: no-repeat;
-
+  .img-fluid{
+    opacity: 0;
   }
   .section-title {
+    margin-top: 5px;
     font-size: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 3px;
   }
   .navbar-expand-md .navbar-brand,
   .navbar-expand-md .navbar-toggler {
@@ -154,12 +142,8 @@ background-repeat: no-repeat;
  
   }
 
-  .img-fluid{
-    max-width: 50%;
-    margin-left: 40vw;
-  }
   .intro-img {
-    opacity: 1;
+    opacity: 0;
     width: 10px;
     height: 10px;
     background-color: black;
@@ -167,19 +151,20 @@ background-repeat: no-repeat;
  
 
   #hero-area .contents .head-title {
-    font-size: 32px;
-    line-height: 36px;
-    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 10px;
+    margin-bottom: 1px;
     
   }
   #hero-area .contents p {
     font-size: 14px;
   }
   #hero-area {
-    padding: 120px 0 80px;
-  }
+    padding: 60px 10px 0px 0px;
+    margin-bottom: -140px;
+   }
   #hero-area .contents .btn {
-    margin: 5px 10px 10px 0px;
+    margin-left: 45px;
   }
   .text-wrapper {
     padding: 60px 15px;
