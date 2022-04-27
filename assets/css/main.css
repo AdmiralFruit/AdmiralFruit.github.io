@@ -1353,5 +1353,6 @@ textarea {
   width: 30px;
   text-align: center;
   text-decoration: none;
-  border-radius: 100%;
+  border-width: 0px;
+  border-color: #0F0701;
 }
